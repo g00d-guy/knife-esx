@@ -38,6 +38,7 @@ module KnifeESX
     #  'ssh-password':
     #  'run-list':
     #  'network-interface':
+    #  'guestinfo-spec:'
     def initialize(batch_file)
       @batch_file = batch_file
       @jobs = []
